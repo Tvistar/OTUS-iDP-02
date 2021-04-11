@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB7368F2621FFF400A3621B /* SwiftUI_OTUS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7368E2621FFF400A3621B /* SwiftUI_OTUS_App.swift */; };
+		AAB736912621FFF400A3621B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB736902621FFF400A3621B /* RootView.swift */; };
+		AAB736932621FFF600A3621B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB736922621FFF600A3621B /* Assets.xcassets */; };
+		AAB736962621FFF600A3621B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB736952621FFF600A3621B /* Preview Assets.xcassets */; };
+		AADD2CE6262217A000CE3BEA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2CE5262217A000CE3BEA /* View.swift */; };
+		AADD2CF5262233BD00CE3BEA /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = AADD2CF4262233BD00CE3BEA /* UIComponents */; };
+		AADD2D0626226A8600CE3BEA /* RaMScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2D0526226A8600CE3BEA /* RaMScreen.swift */; };
+		AADD2D0F26226E7E00CE3BEA /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2D0E26226E7E00CE3BEA /* Array.swift */; };
+		AADD2D1226226EB600CE3BEA /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2D1126226EB600CE3BEA /* Optional.swift */; };
+		AADD2D1626226EDC00CE3BEA /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2D1526226EDC00CE3BEA /* AnyTransition.swift */; };
+		AADD2D21262322AA00CE3BEA /* RamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2D20262322AA00CE3BEA /* RamViewModel.swift */; };
+		AADD2D242623237200CE3BEA /* NetworkingRAM in Frameworks */ = {isa = PBXBuildFile; productRef = AADD2D232623237200CE3BEA /* NetworkingRAM */; };
+		AADD2D2C26234D2A00CE3BEA /* CharacterDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD2D2B26234D2A00CE3BEA /* CharacterDetailScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAB7368B2621FFF400A3621B /* OTUS-IDP-02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTUS-IDP-02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB7368E2621FFF400A3621B /* SwiftUI_OTUS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_OTUS_App.swift; sourceTree = "<group>"; };
+		AAB736902621FFF400A3621B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AAB736922621FFF600A3621B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB736952621FFF600A3621B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAB736972621FFF600A3621B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADD2CE5262217A000CE3BEA /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		AADD2CEF262230D300CE3BEA /* UIComponents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIComponents; sourceTree = "<group>"; };
+		AADD2D0526226A8600CE3BEA /* RaMScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RaMScreen.swift; path = "OTUS-iDP-02/RaMScreen.swift"; sourceTree = SOURCE_ROOT; };
+		AADD2D0E26226E7E00CE3BEA /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Array.swift; path = "OTUS-iDP-02/Extensions/Array.swift"; sourceTree = SOURCE_ROOT; };
+		AADD2D1126226EB600CE3BEA /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = "OTUS-iDP-02/Extensions/Optional.swift"; sourceTree = SOURCE_ROOT; };
+		AADD2D1526226EDC00CE3BEA /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnyTransition.swift; path = "OTUS-iDP-02/Extensions/AnyTransition.swift"; sourceTree = SOURCE_ROOT; };
+		AADD2D1E2623188700CE3BEA /* NetworkingRAM */ = {isa = PBXFileReference; lastKnownFileType = text; name = NetworkingRAM; path = "OTUS-iDP-02/Modules/NetworkingRAM"; sourceTree = SOURCE_ROOT; };
+		AADD2D20262322AA00CE3BEA /* RamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RamViewModel.swift; path = "OTUS-iDP-02/RamViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		AADD2D2B26234D2A00CE3BEA /* CharacterDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CharacterDetailScreen.swift; path = "OTUS-iDP-02/CharacterDetailScreen.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB736882621FFF400A3621B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADD2CF5262233BD00CE3BEA /* UIComponents in Frameworks */,
+				AADD2D242623237200CE3BEA /* NetworkingRAM in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB736822621FFF400A3621B = {
+			isa = PBXGroup;
+			children = (
+				AAB7368D2621FFF400A3621B /* OTUS-IDP-02 */,
+				AAB7368C2621FFF400A3621B /* Products */,
+				AADD2CF3262233BD00CE3BEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB7368C2621FFF400A3621B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7368B2621FFF400A3621B /* OTUS-IDP-02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB7368D2621FFF400A3621B /* OTUS-IDP-02 */ = {
+			isa = PBXGroup;
+			children = (
+				AADD2CF82622533100CE3BEA /* Modules */,
+				AADD2CE42622179000CE3BEA /* Extensions */,
+				AAB7368E2621FFF400A3621B /* SwiftUI_OTUS_App.swift */,
+				AAB736902621FFF400A3621B /* RootView.swift */,
+				AADD2D0526226A8600CE3BEA /* RaMScreen.swift */,
+				AADD2D2B26234D2A00CE3BEA /* CharacterDetailScreen.swift */,
+				AADD2D20262322AA00CE3BEA /* RamViewModel.swift */,
+				AAB736922621FFF600A3621B /* Assets.xcassets */,
+				AAB736972621FFF600A3621B /* Info.plist */,
+				AAB736942621FFF600A3621B /* Preview Content */,
+			);
+			path = "OTUS-IDP-02";
+			sourceTree = "<group>";
+		};
+		AAB736942621FFF600A3621B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAB736952621FFF600A3621B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AADD2CE42622179000CE3BEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AADD2CE5262217A000CE3BEA /* View.swift */,
+				AADD2D0E26226E7E00CE3BEA /* Array.swift */,
+				AADD2D1126226EB600CE3BEA /* Optional.swift */,
+				AADD2D1526226EDC00CE3BEA /* AnyTransition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AADD2CF3262233BD00CE3BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AADD2CF82622533100CE3BEA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AADD2D1E2623188700CE3BEA /* NetworkingRAM */,
+				AADD2CEF262230D300CE3BEA /* UIComponents */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB7368A2621FFF400A3621B /* OTUS-IDP-02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB7369A2621FFF600A3621B /* Build configuration list for PBXNativeTarget "OTUS-IDP-02" */;
+			buildPhases = (
+				AAB736872621FFF400A3621B /* Sources */,
+				AAB736882621FFF400A3621B /* Frameworks */,
+				AAB736892621FFF400A3621B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTUS-IDP-02";
+			packageProductDependencies = (
+				AADD2CF4262233BD00CE3BEA /* UIComponents */,
+				AADD2D232623237200CE3BEA /* NetworkingRAM */,
+			);
+			productName = "OTUS-IDP-02";
+			productReference = AAB7368B2621FFF400A3621B /* OTUS-IDP-02.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB736832621FFF400A3621B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AAB7368A2621FFF400A3621B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = AAB736862621FFF400A3621B /* Build configuration list for PBXProject "OTUS-IDP-02" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB736822621FFF400A3621B;
+			productRefGroup = AAB7368C2621FFF400A3621B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB7368A2621FFF400A3621B /* OTUS-IDP-02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB736892621FFF400A3621B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB736962621FFF600A3621B /* Preview Assets.xcassets in Resources */,
+				AAB736932621FFF600A3621B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB736872621FFF400A3621B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADD2CE6262217A000CE3BEA /* View.swift in Sources */,
+				AADD2D21262322AA00CE3BEA /* RamViewModel.swift in Sources */,
+				AADD2D1626226EDC00CE3BEA /* AnyTransition.swift in Sources */,
+				AADD2D0626226A8600CE3BEA /* RaMScreen.swift in Sources */,
+				AADD2D1226226EB600CE3BEA /* Optional.swift in Sources */,
+				AADD2D0F26226E7E00CE3BEA /* Array.swift in Sources */,
+				AAB736912621FFF400A3621B /* RootView.swift in Sources */,
+				AADD2D2C26234D2A00CE3BEA /* CharacterDetailScreen.swift in Sources */,
+				AAB7368F2621FFF400A3621B /* SwiftUI_OTUS_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAB736982621FFF600A3621B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAB736992621FFF600A3621B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB7369B2621FFF600A3621B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS-IDP-02/Preview Content\"";
+				DEVELOPMENT_TEAM = JHUPW92V9R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OTUS-IDP-02/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iva.OTUS-iDP-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB7369C2621FFF600A3621B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS-IDP-02/Preview Content\"";
+				DEVELOPMENT_TEAM = JHUPW92V9R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OTUS-IDP-02/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iva.OTUS-iDP-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB736862621FFF400A3621B /* Build configuration list for PBXProject "OTUS-IDP-02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB736982621FFF600A3621B /* Debug */,
+				AAB736992621FFF600A3621B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB7369A2621FFF600A3621B /* Build configuration list for PBXNativeTarget "OTUS-IDP-02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB7369B2621FFF600A3621B /* Debug */,
+				AAB7369C2621FFF600A3621B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AADD2CF4262233BD00CE3BEA /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComponents;
+		};
+		AADD2D232623237200CE3BEA /* NetworkingRAM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkingRAM;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AAB736832621FFF400A3621B /* Project object */;
+}

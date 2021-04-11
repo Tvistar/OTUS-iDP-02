@@ -1,0 +1,166 @@
+openapi: 3.0.3
+info:
+  title: Rick And Morty
+  description: Rick And Morty
+  version: 1.0.0
+externalDocs:
+  description: API Root
+  url: 'http://www.rickandmortyapi.com/'
+servers:
+  - url: 'http://www.rickandmortyapi.com/'
+tags:
+  - name: ram
+    description: RaMs
+paths:
+  /api/character/:
+    get:
+      tags:
+        - ram
+      summary: Get Chars
+      operationId: getChars
+      parameters:
+        - name: page
+          in: query
+          description: Paging
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CharList'
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorModel'
+  /api/episode/:
+    get:
+      tags:
+        - ram
+      summary: Get Episodes
+      operationId: getEpisodes
+      parameters:
+        - name: page
+          in: query
+          description: Paging
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EpisodeList'
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorModel'
+components:
+  schemas:
+    CharList:
+      type: object
+      properties:
+#        info:
+#          type: object
+#          properties: 
+#            count:
+#              type: integer
+#            pages:
+#              type: integer
+#            next:
+#              type: string
+#            prev:
+#              type: string
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Char'
+    EpisodeList:
+      type: object
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Episode'
+    
+    Char:
+      type: object
+      required:
+        - url
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        status:
+          type: string
+        species:
+          type: string
+        type:
+          type: string
+        gender:
+          type: string
+        origin:
+          type: object
+          properties:
+            name:
+              type: string
+            url:
+              type: string
+        location:
+          type: object
+          properties:
+            name:
+              type: string
+            url:
+              type: string
+        image:
+          type: string
+#        episode:
+#          type: array
+#          items:
+#            type: string
+        url:
+          type: string
+        created:
+          type: string
+    Episode:
+      type: object
+      required:
+        - url
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        air_date:
+          type: string
+        episode:
+          type: string
+#        characters:
+#          type: array
+#          items:
+#            type: string
+        url:
+          type: string
+        created:
+          type: string
+    ErrorModel:
+      type: object
+      required:
+        - message
+        - code
+      properties:
+        message:
+          type: string
+        code:
+          type: integer
+          minimum: 100
+          maximum: 600
